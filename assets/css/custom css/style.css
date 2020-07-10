@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* font-color classes */
+ /* .black{ color: } */
+/* .white{ color: #ffffff} */
+/* .pri  */
+
+
+.port1{
+ background-image: linear-gradient(rgba(20, 20, 20, .5),
+ rgba(20, 20, 20, .8)),
+ url('/assets/images/desktop-background.svg');
+ background-size: cover;
+    background-repeat: none;
+    height: 50%;
+    position: relative;
+    background-position: center;
+ 
+} 
+.purple{
+    color:#6F2CFF;
+}
+.lblack{
+    color: #333333;
+}
+.port1-text h1{
+    margin:auto;
+    color:#ffffff;
+    
+}
+.port1-text h3{
+    margin:auto;
+    color:#6F2CFF;
+}
+.port1-text{
+    width:100%;
+}
+.navbar {
+    
+    text-align: center;
+}
+.sqr-btn-1{
+    display: flex;
+flex-direction: row;
+padding: 16px 27px;
+border-radius: 0;
+
+background: #6F2CFF;
+}
+.sqr-btn-2{
+border:2px solid #6F2CFF;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-purple{
+    background-color:#6F2CFF ;
+}
+.form-control{
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    min-height:50px;
+    border-radius: 0px;
+}
+.text-control{
+   min-height:150px;
+   border-radius: 0px;
+  }
